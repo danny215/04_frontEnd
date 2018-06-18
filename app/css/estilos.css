@@ -1,0 +1,33 @@
+/*Comentarios son de tipo .css*/
+/*Etiqueta*/
+
+
+h1{
+    /*nombre-propiedad:valor-propiedad*/
+    color: orangered;
+}
+/*ID*/
+#rojo{
+    color:blue;
+}
+
+#rojo:hover{
+    color:green;
+}
+/*Clase*/
+.bg-green{
+    background-color: greenyellow;/*cuando son clases se le pone un punto, en etiqueta solo #*/
+}
+.borde-cafe{
+    border-style: solid;
+    border-width: 3px;
+    border-color: brown;
+}
+
+
+/*(style)*/
+
+/*Query-selectors*/
+h1.bg-green, h2.amarillo{
+    background-color: red;
+}
